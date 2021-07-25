@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+/* -------------------------------------------
+--------------------HEADER--------------------
+------------------------------------------- */
+
+.header_wrapper{
+    width: 1440px;
+    height: 780px;
+    background-image: url(../img/mainBG.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 220px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 60px;
+    text-align: right;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.header_nav{
+    width: 480px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 23px;
+    line-height: 60px;
+    list-style-type: none;
+}
+
+.link{
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.sing_in{
+    width: 120px;
+    height: 50px;
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    outline: none;
+}
+
+/* -------------------------------------------
+-------------------SURVIVAL-------------------
+------------------------------------------- */
+
+.survival{
+    width: 1200px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.survival_title{
+    width: 200px;
+    height: 72px;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #CD6326;
+}
+
+.survival_content{
+    width: 275px;
+    height: 110px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+
+.survival_button{
+    width: 160px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 27px;
+    color: #F7F7F7;
+    background-color: #CD6326;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+/* -------------------------------------------
+---------------------MAIN---------------------
+------------------------------------------- */
+
+.main{
+    width: 1440px;
+    height: 1370px;
+    background-color: #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main_title{
+    width: 325px;
+    height: 72px;
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.main_subtitle{
+    width: 335px;
+    height: 36px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #666666;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* -------------------------------------------
+--------------------SLIDER--------------------
+------------------------------------------- */
+
+.slider{
+    width: 1170px;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.card{
+    width: 300px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #F7F7F7;
+}
+
+.card_name{
+    width: 100%;
+    height: 55px;
+    font-size: 22px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_content{
+    width: 100%;
+    height: 70px;
+    font-size: 17px;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.arr{
+    color: #666666;
+    transform: scale(2.5);
+}
+
+.Deer{
+    background-image: url(../img/Deer.png);
+    background-repeat: no-repeat;
+}
+
+.Squirrel{
+    background-image: url(../img/Squirrel.png);
+    background-repeat: no-repeat;
+}
+
+.Bird{
+    background-image: url(../img/Bird.png);
+    background-repeat: no-repeat;
+}
+
+.form_title{
+    width: 530px;
+    height: 45px;
+    font-size: 27px;
+    line-height: 40px;
+    color: #333333;
+    text-align: center;
+    margin-top: 235px;
+}
+
+.form{
+    width: 660px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.form_mail{
+    width: 540px;
+    height: 100%;
+    border: 1px solid #666666;
+    border-right: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 27px;
+    background-color: #CCCCCC;
+    color: #666666;
+    padding-left: 15px;
+    outline: none;
+}
+
+.form_button{
+    width: 120px;
+    height: 100%;
+    background-color: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0 5px 5px 0;
+    color: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 27px;
+    border: none;
+    outline: none;
+}
+
+/* -------------------------------------------
+--------------------FOOTER--------------------
+------------------------------------------- */
+
+.footer_wrapper{
+    width: 1440px;
+    height: 360px;
+    background-image: url(../img/footerBG.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_us{
+    width: 470px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 23px;
+    line-height: 60px;
+    list-style-type: none;
+}
+
+.media{
+    width: 245px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.media_link{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.facebook{
+    background-image: url(../img/facebook.svg);
+}
+
+.instagram{
+    background-image: url(../img/instagram.svg)
+}
+
+.pinterest{
+    background-image: url(../img/pinterest.svg);
+}
+
+.telegram{
+    background-image: url(../img/telegram.svg);
+}
+
+/* -------------------------------------------
+----------------:hover/:active----------------
+------------------------------------------- */
+
+.survival_button:hover, .form_button:hover{
+    background-color: #E39128;
+}
+
+.link:hover, .header_search:hover{
+    cursor: pointer;
+    color: #CD6326;
+}
+
+.sing_in:hover{
+    cursor: default;
+    background-color: #CD6326;
+    border: none;
+}
+
+.survival_button:active, .form_button:active, .sing_in:active{
+    background-color: #8F5613;
+}
+
+.arr:hover{
+    cursor: pointer;
+    color: #CD6326;
+}
+
+.media_link:hover{
+    transform: scale(1.2);
+    border: 2.5px solid #CD6326;
+}
